@@ -1,0 +1,77 @@
+body{
+    background-color: black; /*Definir a cor do fundo do nosso site*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+.container{
+    display: flex; /* display flex para ajustar os elementos */
+    justify-content: center; /* centraliza horizontalmente*/
+    align-items: center; /*centraliza verticalmente */
+    height: 100vh; /* aumenta a altura total da tela (parte de cima) */
+}
+
+.login-box{
+    background-color: white; /*Definir cor do fundo do nosso formulário*/
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px white;
+    width: 300px;
+
+}
+
+h2{
+    text-align: center;
+    color: black;
+}
+
+
+label{
+    display: block;
+    margin-top: 15px;
+    color: dimgray;
+}
+
+input[type="text"],
+input[type="password"]{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border:1px solid gray;
+    border-radius: 5px;
+}
+
+
+/*Área do checkbox*/
+
+.options{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 14px;
+    font-size: 14px;
+
+
+
+}
+
+
+button{
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+
+
+}
+
+button:hover{
+    background-color: dimgray;
+}

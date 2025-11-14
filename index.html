@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Menu Sistema</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Esse é meu formula´rio de login -->
+    <div class="container">
+        <div class="login-box">
+            <h2>Área de Login</h2>
+            <form action="/login" method="post">
+            <label for="username">Usuário</label>
+            <input type="text" name="username" placeholder="Digite seu usuário" id="username" required>    
+            
+            <label for="password">Senha</label>
+            <input type="password" name="password" placeholder="Digite sua senha" id="password" required>
+            
+            <div class="options">
+                <label><input type="checkbox" name="remember">Lembrar-me </label>
+                <a href="/reset-password">Esqueci a senha</a>
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+        </div>
+    </div>
+</body>
+</html>
